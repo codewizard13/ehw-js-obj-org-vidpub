@@ -74,6 +74,9 @@ const conf = {
             links: Array(
                 "link_01", "link_02", "link_03"
             )
+        },
+        effects: {
+            transitions: Array("trans1","trans2","trans3"),
         }
     
     }
