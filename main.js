@@ -43,7 +43,11 @@ console.log("HELLO!");
 
 const conf = {
     vars: {
-        sep_bar: "~~~~~~~~~~~~",
+        hr: {
+            tilde: "~~~~~~~~~~~~",
+            bar_short: "---",
+            bar_long: "---------",
+        },
     },
     config_purpose: "This is a template/interface describing what each video should have",
     prj_dir: {
