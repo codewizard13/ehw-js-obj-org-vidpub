@@ -43,6 +43,9 @@ console.log("HELLO!");
 
 const conf = {
     config_purpose: "This is a template/interface describing what each video should have",
+    prj_dir: {
+        name: "EHDVE_YYYYMMDD_CHANNEL-ABBREV_ShortVidName"
+    },
     vid_file: {
         name: "EHDVR_YYYYMMDD_CHANNEL-ABBREV_ShortVidName_VERSIONNUM",
         ext: ".mp4",
