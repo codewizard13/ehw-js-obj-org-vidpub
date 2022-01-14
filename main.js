@@ -113,6 +113,10 @@ const conf = {
                 head: "Video Ideas",
                 descr: "I love sharing my knowledge with others, and by sharing and communicating in a loving way, we all grow! If you have any ideas, suggestions, or questions, leave a comment below. If I make a video from one of your suggestions, you will get a shout out on the video.",    
             },
+            like_sub: {
+                head: "Like & Subscribe",
+                descr: "Please LIKE, SUBCRIBE, and hit the BELL to be notified of new videos if you enjoyed this content!",
+            },
         },
         services: {
             head: "Services",
@@ -126,6 +130,20 @@ const conf = {
                 "PC Troubleshooting & Repair",
                 "Printer Repair",
             ),
+        },
+        connect: {
+            head: "Connect",
+            intro: "CONNECT with Eric Hepperle Designs:",
+            links: {
+                fb: "",
+                insta: "",
+                twit: "",
+                linkedin: "",
+                blog: "",
+                site_pers: "",
+                site_bus: "",
+                site_other: "",
+            }
         }
     }
 }
