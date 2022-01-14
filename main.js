@@ -74,9 +74,23 @@ const conf = {
         resources: {
             sep_bar: "~~~~~~~~~~~~",
             head: "Links & Resources",
-            links: Array(
-                "link_01", "link_02", "link_03"
-            )
+            links: {
+                link_01: {
+                    name: "Something Website: Awesome Vid 01",
+                    descr: "Balboa Press: Here's a list of currently offered publishing packages:",
+                    url: "https://something/vid_name.mp4"
+                },
+                link_02: {
+                    name: "Something Website: Awesome Vid 02",
+                    descr: "Balboa Press: Here's a list of currently offered publishing packages:",
+                    url: "https://something/vid_name.mp4",
+                },
+                link_03: {
+                    name: "Something Website: Awesome Vid 03",
+                    descr: "Balboa Press: Here's a list of currently offered publishing packages:",
+                    url: "https://something/vid_name.mp4",
+                },
+            }
         },
         effects: {
             transitions: Array("trans1","trans2","trans3"),
