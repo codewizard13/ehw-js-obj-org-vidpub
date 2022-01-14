@@ -179,6 +179,22 @@ const conf = {
                 },
                 site_other: "",
             }
-        }
+        },
+        tools: Array(
+            {
+                type_name: "Screen Recorder",
+                prog_name: "Bandicam",
+                prog_ver: "1.03.02",
+                prog_brand: "Bandicam",
+                prog_yr: "2022" 
+            },
+            {
+                type_name: "Image Editor",
+                prog_name: "Photoshop",
+                prog_ver: "CS6",
+                prog_brand: "Adobe",
+                prog_yr: "2011" 
+            }, 
+        ),
     }
 }
