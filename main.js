@@ -42,6 +42,9 @@ properties and brands.
 console.log("HELLO!");
 
 const conf = {
+    vars: {
+        sep_bar: "~~~~~~~~~~~~",
+    },
     config_purpose: "This is a template/interface describing what each video should have",
     prj_dir: {
         name: "EHDVE_YYYYMMDD_CHANNEL-ABBREV_ShortVidName"
@@ -72,7 +75,6 @@ const conf = {
             info: ""
         },
         resources: {
-            sep_bar: "~~~~~~~~~~~~",
             head: "Links & Resources",
             links: {
                 link_01: {
@@ -92,12 +94,15 @@ const conf = {
                 },
             }
         },
+            
+    },
+    pub_data: {
         effects: {
             transitions: Array("trans1","trans2","trans3"),
+        },
+        about: {
+            head: "About Me",
+            descr: "I am a multi-disciplined graphic designer based in Geneva, AL where I live in a little blue house with my wife and 9 cats. Yes, you heard that right -- and that's not even counting the two outside cats we care for! I know them each by name and love them all. That is my family that I live with on a tiny semi-rural deep south homestead we call Hepperle Manor.",
         }
-    
     }
-    
-
-
 }
