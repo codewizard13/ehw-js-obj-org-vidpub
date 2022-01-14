@@ -53,7 +53,7 @@ ES6, arrow functions
 <title><?php echo $page_title; ?></title>
 
 
-<!-- <link rel="stylesheet" href="style/main.css"> -->
+<link rel="stylesheet" href="style/main.css">
 
 <!--<style></style>-->
 
