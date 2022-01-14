@@ -135,13 +135,44 @@ const conf = {
             head: "Connect",
             intro: "CONNECT with Eric Hepperle Designs:",
             links: {
-                fb: "",
-                insta: "",
-                twit: "",
-                linkedin: "",
-                blog: "",
-                site_pers: "",
-                site_bus: "",
+                fb_pers: {
+                    label: "Facebook",
+                    url: "https://erichepperle.com",
+                },
+                fb_bus: {
+                    label: "Facebook",
+                    url: "https://www.facebook.com/erichepperledesigns/",
+                },
+                insta: {
+                    label: "Instagram",
+                    url: "https://erichepperle.com",
+                },
+                twit: {
+                    label: "Twitter",
+                    url: "https://erichepperle.com",
+                },
+                linkedin_pers: {
+                    label: "LinkedIn",
+                    url: "https://www.linkedin.com/in/erichepperle/",
+                },
+                linkedin_bus: {
+                    label: "LinkedIn",
+                    url: "https://www.linkedin.com/company/eric-hepperle-designs",
+                },
+                blog: {
+                    label: "Blog",
+                    url: "https://erichepperle.com/blog",
+                },
+                site_pers: {
+                    label: "Website",
+                    name: "EricHepperle.com",
+                    url: "https://erichepperle.com",
+                },
+                site_bus:  {
+                    label: "Website",
+                    name: "Eric Hepperle Designs",
+                    url: "https://erichepperledesigns.com",
+                },
                 site_other: "",
             }
         }
