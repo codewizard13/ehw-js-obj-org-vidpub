@@ -103,6 +103,29 @@ const conf = {
         about: {
             head: "About Me",
             descr: "I am a multi-disciplined graphic designer based in Geneva, AL where I live in a little blue house with my wife and 9 cats. Yes, you heard that right -- and that's not even counting the two outside cats we care for! I know them each by name and love them all. That is my family that I live with on a tiny semi-rural deep south homestead we call Hepperle Manor.",
+        },
+        ctas: {
+            leave_comment: {
+                head: "Leave Comment",
+                descr: "If you found this video tutorial helpful, please leave a comment below!",    
+            },
+            vid_ideas: {
+                head: "Video Ideas",
+                descr: "I love sharing my knowledge with others, and by sharing and communicating in a loving way, we all grow! If you have any ideas, suggestions, or questions, leave a comment below. If I make a video from one of your suggestions, you will get a shout out on the video.",    
+            },
+        },
+        services: {
+            head: "Services",
+            intro: "",
+            list: Array(
+                "Web design",
+                "Graphic design",
+                "WordPress design",
+                "Website development",
+                "Coding",
+                "PC Troubleshooting & Repair",
+                "Printer Repair",
+            ),
         }
     }
 }
